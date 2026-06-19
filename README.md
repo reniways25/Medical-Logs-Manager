@@ -13,7 +13,8 @@ Right away, the cursor lands in the input box when the page opens. Every time a 
 🛠 Tech Stack
 Functional pieces shape React now, yet hooks handle logic inside them. Classes stepped back when simpler ways arrived. Each part works alone, still connects through state tools meant for functions. Logic lives where it fits best, guided by rules made just for these modern blocks
 A single stylesheet, bare by design - keeps attention where it belongs: the behavior written in JavaScript and React. Minimal rules live here only to support structure, nothing more. Visuals stay lean so brainpower goes toward interaction flow, not styling tweaks. Every line serves clarity, never decoration. The look doesn’t shout; it steps aside
-📁 Project Structure
+
+Project Structure
 
 medical-logs-manager/
 
