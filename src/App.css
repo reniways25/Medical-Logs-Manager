@@ -1,0 +1,49 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+input, select, button {
+  padding: 0.5rem;
+}
+
+.search-bar {
+  width: 100%;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.log-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #999;
+  background: #f7f7f7;
+}
+
+.log-item.alert {
+  border-left-color: #d9534f;
+}
+
+.log-item.info {
+  border-left-color: #5bc0de;
+}
+
+button {
+  cursor: pointer;
+}
